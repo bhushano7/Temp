@@ -1,0 +1,17 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IStudentService" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None" />
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:55097/StudentService.svc"
+                binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IStudentService"
+                contract="ServiceReferenceStudent.IStudentService" name="BasicHttpBinding_IStudentService" />
+        </client>
+    </system.serviceModel>
+</configuration>

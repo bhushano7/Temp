@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFDatabaseWebService", "WCFDatabaseWebService\WCFDatabaseWebService.csproj", "{5A217E44-5855-4BB2-9784-DE6E8B39BBEC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE} = {D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFDatabaseWebService.Web", "WCFDatabaseWebService.Web\WCFDatabaseWebService.Web.csproj", "{D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A217E44-5855-4BB2-9784-DE6E8B39BBEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A217E44-5855-4BB2-9784-DE6E8B39BBEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A217E44-5855-4BB2-9784-DE6E8B39BBEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A217E44-5855-4BB2-9784-DE6E8B39BBEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D24DFA03-E99A-49F4-9AD3-FC4DE6A5E5EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

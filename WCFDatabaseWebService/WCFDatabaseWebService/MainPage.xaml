@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="WCFDatabaseWebService.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300" d:DesignWidth="400" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="127"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        
+        <StackPanel >
+            <TextBlock Text="Id" Margin="7"/>
+            <TextBlock Text="Name" Margin="7"/>
+            <TextBlock Text="Course" Margin="7"/>
+            <TextBlock Text="Fees" Margin="7"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1">
+            <TextBox Name="txtId" Margin="3"/>
+            <TextBox Name="txtName" Margin="3"/>
+            <TextBox Name="txtCourse" Margin="3"/>
+            <TextBox Name="txtFees" Margin="3"/>
+        </StackPanel>
+        
+        <StackPanel Grid.Row="1" Grid.ColumnSpan="3" HorizontalAlignment="Center" Orientation="Horizontal">
+            <Button Width="70" Height="20" Name="btnShow" Content="Show" Click="btnShow_Click" />
+            <Button Width="70" Height="20" Name="btnInsert" Content="Insert" Click="btnInsert_Click" />
+            <Button Width="70" Height="20" Name="btnUpdate" Content="Update" Click="btnUpdate_Click" />
+            <Button Width="70" Height="20" Name="btnDelete" Content="Delete" Click="btnDelete_Click" />
+        </StackPanel>
+        <sdk:DataGrid Grid.Row="3" Grid.ColumnSpan="3" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10" Name="dataGrid1"/>
+    </Grid>
+</UserControl>

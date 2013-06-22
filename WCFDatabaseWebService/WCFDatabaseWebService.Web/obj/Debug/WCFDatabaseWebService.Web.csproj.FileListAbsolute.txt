@@ -1,0 +1,5 @@
+D:\MCA IV\Silverlight\WCFDatabaseWebService\WCFDatabaseWebService.Web\bin\WCFDatabaseWebService.Web.dll
+D:\MCA IV\Silverlight\WCFDatabaseWebService\WCFDatabaseWebService.Web\bin\WCFDatabaseWebService.Web.pdb
+D:\MCA IV\Silverlight\WCFDatabaseWebService\WCFDatabaseWebService.Web\obj\Debug\WCFDatabaseWebService.Web.dll
+D:\MCA IV\Silverlight\WCFDatabaseWebService\WCFDatabaseWebService.Web\obj\Debug\WCFDatabaseWebService.Web.pdb
+D:\MCA IV\Silverlight\WCFDatabaseWebService\WCFDatabaseWebService.Web\obj\Debug\WCFDatabaseWebService.Web.csprojResolveAssemblyReference.cache
